@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Inconsolata';
+  src: url(font/Inconsolata-Regular.ttf);
+}
+
+
+/* --------------------------
+  .page_title
+----------------------------- */
+.page_title {
+  margin: 40px 77px;
+}
+.page_title p {
+  font-family: 'Inconsolata';
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+}
