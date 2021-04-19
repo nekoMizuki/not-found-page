@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Inconsolata';
-  src: url(font/Inconsolata-Regular.ttf);
+  src: url(font/Inconsolata-Regular.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Space Mono Regular';
