@@ -2,7 +2,14 @@
   font-family: 'Inconsolata';
   src: url(font/Inconsolata-Regular.ttf);
 }
-
+@font-face {
+  font-family: 'Space Mono Regular';
+  src: url(font/SpaceMono-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Space Mono Bold';
+  src: url(font/SpaceMono-Bold.ttf) format('truetype');
+}
 
 /* --------------------------
   .page_title
@@ -16,4 +23,52 @@
   font-weight: bold;
   line-height: 25px;
   letter-spacing: -0.08em;
+}
+
+/* --------------------------
+  main
+----------------------------- */
+main {
+  margin: 160px 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 
+  .main_image
+----------------------------- */
+.main_image {
+  width: 45%;
+}
+
+/* 
+  .right_text
+----------------------------- */
+.right_texts {
+  width: 45%;
+  max-width: 700px;
+}
+
+.main_title {
+  font-family: 'Space Mono Bold';
+  font-size: 64px;
+  line-height: 95px;
+}
+
+.main_text {
+  font-family: 'Space Mono Regular';
+  font-size: 24px;
+  max-width: 400px;
+  margin: 36px 0 64px 0;
+}
+
+.back_link {
+  display: inline-block;
+  padding: 24px 43px;
+  background: #000;
+  color: #fff;
+  font-family: 'Space Mono Regular';
+  line-height: 20px;
+  font-size: 14px;
 }
