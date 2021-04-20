@@ -93,3 +93,50 @@ footer {
   font-weight: bold;
   text-decoration: underline;
 }
+
+@media screen and (max-width: 880px) {
+  /* --------------------------
+    .page_title
+  ----------------------------- */
+  .page_title {
+    margin: 20px 24px;
+  }
+
+  /* --------------------------
+  main
+  ----------------------------- */
+  main {
+    margin: 64px 24px;
+    flex-direction: column;
+  }
+
+  /* 
+    .main_image
+  ----------------------------- */
+  .main_image {
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 60px;
+  }
+
+  /* 
+    .right_text
+  ----------------------------- */
+  .right_texts {
+    width: 100%;
+    max-width: none;
+  }
+
+  .main_title {
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    margin-bottom: 30px;
+  }
+
+  .main_text {
+    font-size: 18px;
+    max-width: none;
+    margin: 30px 0 66px 0;
+  }
+}
