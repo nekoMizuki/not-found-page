@@ -10,6 +10,10 @@
   font-family: 'Space Mono Bold';
   src: url(font/SpaceMono-Bold.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Montserrat';
+  src: url(font/Montserrat-Medium.ttf) format('truetype');
+}
 
 /* --------------------------
   .page_title
@@ -71,4 +75,20 @@ main {
   font-family: 'Space Mono Regular';
   line-height: 20px;
   font-size: 14px;
+}
+
+/* --------------------------
+  footer
+-----------------------------*/
+footer {
+  margin: 24px 0;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  color: #bdbdbd;
+}
+
+.footer_username {
+  font-weight: bold;
+  text-decoration: underline;
 }
